@@ -1,0 +1,10 @@
+<p>
+  My Super Duper routing app  
+</p>
+<a [routerLink]="'/mycomp'">My Component</a><br>
+<a [routerLink]="'/mydyn'">My DYNAMIC Component</a><br>
+<a [routerLink]="'/mfoo'">Some not existing component will display 404</a>
+<div>
+  <h3>Here we render subcomps</h3>
+  <router-outlet></router-outlet>
+</div>
